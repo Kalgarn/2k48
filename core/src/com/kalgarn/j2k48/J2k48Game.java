@@ -1,4 +1,4 @@
-package com.kalgarn.2k48;
+package com.kalgarn.j2k48;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
@@ -6,7 +6,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class 2k48Game extends ApplicationAdapter {
+public class J2k48Game extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture img;
 	

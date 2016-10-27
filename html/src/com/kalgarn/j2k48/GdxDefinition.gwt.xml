@@ -4,8 +4,8 @@
 	<inherits name='com.badlogic.gdx.backends.gdx_backends_gwt' />
 	<inherits name='com.badlogic.gdx.physics.box2d.box2d-gwt' />
 
-	<inherits name='2k48Game' />
-	<entry-point class='com.kalgarn.2k48.client.HtmlLauncher' />
+	<inherits name='J2k48Game' />
+	<entry-point class='com.kalgarn.j2k48.client.HtmlLauncher' />
 	
 	<set-configuration-property name="gdx.assetpath" value="../android/assets" />
 </module>

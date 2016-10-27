@@ -1,9 +1,9 @@
-package com.kalgarn.2k48.client;
+package com.kalgarn.j2k48.client;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.kalgarn.2k48.2k48Game;
+import com.kalgarn.j2k48.J2k48Game;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -14,6 +14,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener getApplicationListener () {
-                return new 2k48Game();
+                return new J2k48Game();
         }
 }
