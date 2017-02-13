@@ -22,6 +22,8 @@ public class Tile {
         position = new Vector3(x, y, 0);
     }
 
+
+
     public void update(float dt){
         tile.setPosition(position.x, position.y);
 

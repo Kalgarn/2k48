@@ -22,7 +22,8 @@ public class PlayScreen implements Screen {
     public PlayScreen(J2k48Game game) {
         this.panelgame = game;
 
-        tile = new Tile(20,20);
+        tile = new Tile(2,20,20);
+
     }
 
     @Override
