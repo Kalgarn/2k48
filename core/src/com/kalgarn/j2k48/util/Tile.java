@@ -1,4 +1,4 @@
-package com.kalgarn.j2k48;
+package com.kalgarn.j2k48.util;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.math.Rectangle;
